@@ -14,9 +14,7 @@ def busca_binaria(vetor, elemento):
 
     return "O elemento não está presente na lista"
 
-vetor = []
-for i in range(1, 3000):
-    vetor.append(i)
+vetor = [i for i in range(3000)]
     
 elemento = int(input())
 
