@@ -11,8 +11,9 @@ def fullCountingSort(number):
 
     for i in range(number//4):
         matriz_nova[i][0] = '-'
-    for j in range(number//4):
-        indice_matriz = len(matriz_nova)-1
+    
+    indice_matriz = len(matriz_nova)-1
+    for j in range(number//4-1):
         matriz_nova[indice_matriz][0] = '-'
         indice_matriz -= 1
 
